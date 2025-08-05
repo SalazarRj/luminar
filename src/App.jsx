@@ -622,6 +622,7 @@ function App() {
     );
     const totalPages = Math.ceil(totalBooks / pageSize);
     const showPagination = totalBooks > pageSize && filterQuery === ''; 
+
     return (
       <div className="flex flex-col p-4 flex-grow overflow-y-auto">
         <button
